@@ -75,11 +75,11 @@ const DEFAULT_CARDS: ICard[] = [
     column: "in-progress",
   },
   // DONE
-  {
-    title: "Get Hunter Cha to ask me out",
-    id: "10",
-    column: "complete",
-  },
+  // {
+  //   title: "Get Hunter Cha to ask me out",
+  //   id: "10",
+  //   column: "complete",
+  // },
   {
     title: "Complete daily 30 minutes LooksMaxxing session",
     id: "11",
