@@ -45,7 +45,7 @@ const Kanban = () => {
 
   return (
     <div className="w-full min-h-screen">
-      <div className="w-full h-full flex-1 flex gap-5 overflow-x-scroll p-12">
+      <div className="w-full h-full flex-1 flex gap-5 overflow-x-auto p-12">
         {columns.map((column) => (
           <Column key={column.type} {...column} column={column} />
         ))}
